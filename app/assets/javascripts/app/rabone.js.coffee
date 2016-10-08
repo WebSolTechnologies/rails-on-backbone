@@ -1,3 +1,6 @@
+#= require_self
+#= require_tree ./routers
+
 window.App =
   Routers: {}
   initialize: ->
