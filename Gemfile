@@ -44,6 +44,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+gem 'sprockets', '~> 3.0'
+
 gem 'bootstrap-sass'
 gem 'handlebars_assets'
 

@@ -1,4 +1,9 @@
 class App.Views.Header extends Backbone.View
+
+  className: "navbar-inner"
+  template: Handlebars.templates['app/templates/header']
+
   render: ->
-    @$el.html("<h1>Header</h1>")
+    console.log @template
+    @$el.html(@template)
     @
